@@ -1,0 +1,17 @@
+.reservation {
+    background-color: white;
+    border-color: teal;
+    border: 10px solid teal;
+    border-radius: 5%;
+    padding: 35px;
+    margin: 1em;
+    color: teal;
+}
+   button {
+        width: fill;
+        background-color: teal;
+        color: white;
+        height: 35px;
+        border-radius: 5%;
+        font-size: 1em;
+    }

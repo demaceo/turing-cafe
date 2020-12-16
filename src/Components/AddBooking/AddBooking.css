@@ -1,0 +1,17 @@
+.booking-form {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw
+}
+
+input {
+    width: 15em;
+    height: 1.5em
+}
+.btn{
+    background-color: teal;
+    height: 2em;
+    border-radius: 7%;
+    width: 10em;
+    color: white
+}
