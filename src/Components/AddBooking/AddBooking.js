@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import "./AddBooking.css";
-import PropTypes from 'prop-types';
 
 class AddBooking extends Component {
     constructor(props){

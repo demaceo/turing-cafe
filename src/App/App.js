@@ -5,6 +5,11 @@ import uuid from 'uuid';
 import Bookings from '../Components/Bookings/Bookings';
 import AddBooking from '../Components/AddBooking/AddBooking';
 
+
+//Future Iterations: 
+//test to make sure all input fields are filled in before enabling 'make reservation' button
+// when clicking "Cancel Reservation" button have a confirmation alert pop up before deleting
+// 
 class App extends Component {
   constructor() {
     super();
