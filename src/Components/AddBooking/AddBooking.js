@@ -13,7 +13,7 @@ class AddBooking extends Component {
         }
     }
 
-    onChange = (e) => this.setState({ [e.target.name]: e.target.value })
+    onChange = (e) => this.setState({ [e.target.alt]: e.target.value })
     onSubmit = (e) => {
         e.preventDefault(); 
         this.props.addBooking(this.state);
@@ -25,16 +25,13 @@ class AddBooking extends Component {
     render() {
         return (
             <form onSubmit={this.onSubmit} className="booking-form">
-                <input type="text" name="name" placeholder="Name" value={this.state.name} onChange={this.onChange}></input>
-                <input type="text" name="date"  placeholder="Date" value={this.state.date} onChange={this.onChange}></input>
-                <input type="text" name="time"  placeholder="Time" value={this.state.time} onChange={this.onChange}></input>
-                <input type="text" name="number"  placeholder="Number of Guests" value={this.state.number} onChange={this.onChange}></input>
+                <input type="text" alt="name" name="name" placeholder="Name" value={this.state.name} onChange={this.onChange}></input>
+                <input type="text" alt="date"  placeholder="Date" value={this.state.date} onChange={this.onChange}></input>
+                <input type="text" alt="time"  placeholder="Time" value={this.state.time} onChange={this.onChange}></input>
+                <input type="text" alt="number"  placeholder="Number of Guests" value={this.state.number} onChange={this.onChange}></input>
                 <input type="submit" className="btn" value="Make Reservation"></input>
             </form>
         )
     }
-    // AddBooking.propTypes = {
-    //     addBooking: PropTypes.func.isRequired
-    // }
 }
 export default AddBooking;
