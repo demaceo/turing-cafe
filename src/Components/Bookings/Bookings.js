@@ -19,7 +19,6 @@ const bookingCards = props.bookings.map(booking => {
 
   return (
     <>
-      <h2>Bookings</h2>
       <section className='bookings'>
         {bookingCards}
       </section>

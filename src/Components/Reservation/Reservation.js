@@ -5,7 +5,7 @@ export default function Reservation(props) {
       <section className="reservation">
         <h3>{props.name}</h3>
         <p>{props.date}</p>
-        <p>{props.time}</p>
+        <p>{props.time}pm</p>
         <p>Number of Guests: {props.number}</p>
         <button onClick={() => props.cancelRes(props.id)}>Cancel</button>
       </section>
