@@ -12,8 +12,8 @@ class App extends Component {
       bookings: [],
     };
   }
-  cancelReservation() {
-    console.log("cancel");
+  cancelReservation = (id) => {
+    this.setState({ bookings: [...this.state.bookings.filter(booking => booking.id !== id)] })
   }
 
   addBooking = (booking) => {
