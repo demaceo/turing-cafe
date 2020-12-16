@@ -24,11 +24,11 @@ class AddBooking extends Component {
     render() {
         return (
             <form onSubmit={this.onSubmit} className="booking-form">
-                <input type="text" alt="name" name="name" placeholder="Name" value={this.state.name} onChange={this.onChange}></input>
-                <input type="text" alt="date"  placeholder="Date" value={this.state.date} onChange={this.onChange}></input>
-                <input type="text" alt="time"  placeholder="Time" value={this.state.time} onChange={this.onChange}></input>
-                <input type="text" alt="number"  placeholder="Number of Guests" value={this.state.number} onChange={this.onChange}></input>
-                <input type="submit" className="btn" value="Make Reservation"></input>
+                <input type="text" alt="name" name="name" placeholder=" Name" value={this.state.name} onChange={this.onChange}></input>
+                <input type="text" alt="date"  placeholder=" Date (mm/dd)" value={this.state.date} onChange={this.onChange}></input>
+                <input type="text" alt="time"  placeholder=" Time" value={this.state.time} onChange={this.onChange}></input>
+                <input type="text" alt="number"  placeholder=" Number of Guests" value={this.state.number} onChange={this.onChange}></input>
+                <input type="submit" className="btn" value=" Make Reservation"></input>
             </form>
         )
     }

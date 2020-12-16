@@ -1,11 +1,12 @@
 .reservation {
     background-color: white;
     border-color: teal;
-    border: 10px solid teal;
+    border: 6px solid teal;
     border-radius: 5%;
     padding: 35px;
     margin: 1em;
     color: teal;
+    width: 12vw;
 }
    button {
         width: fill;

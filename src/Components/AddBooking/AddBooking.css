@@ -1,7 +1,8 @@
 .booking-form {
     display: flex;
     justify-content: space-between;
-    width: 80vw
+    width: 80vw;
+    padding-bottom: 2em
 }
 
 input {
@@ -10,8 +11,9 @@ input {
 }
 .btn{
     background-color: teal;
-    height: 2em;
-    border-radius: 7%;
-    width: 10em;
+    height: 3.5vh;
+
+    border: 2px solid yellow;
+    width: 10vw;
     color: white
 }
