@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "node-sass": "^5.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.3"
@@ -31,8 +32,8 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.4",
-    "jest-environment-jsdom-sixteen": "^1.0.3",
     "@testing-library/user-event": "^7.2.1",
-    "fsevents": "^1.2.13"
+    "fsevents": "^1.2.13",
+    "jest-environment-jsdom-sixteen": "^1.0.3"
   }
 }
